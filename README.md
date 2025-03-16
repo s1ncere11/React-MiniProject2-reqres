@@ -1,30 +1,36 @@
-OutsourSync.
+OutsourSync
 
-Description
-A React-based project utilizing the Reqres API for authentication (login & register) and fetching users. The project is styled with Tailwind CSS and enhanced with animations using Framer Motion.
+This is a user management system web project built with React and Vite. It uses the Reqres API for authentication (login & register) and user data management.
 
+🚀 Features
 
-Features: 
-User authentication (Login & Register) using Reqres API
-Fetch and display users from the Reqres API
-Responsive UI with Tailwind CSS
-Smooth animations with Framer Motion
-Toast notifications for feedback
+🔐 User Authentication (Login & Register) using Reqres API
 
+👥 User Management - Fetch and display users from Reqres API
 
-Library Used:
-React 19
-React Router DOM (for navigation)
-Axios (for API requests)
-Tailwind CSS (for styling)
-Framer Motion (for animations)
-React Icons (for icons)
-React Toastify (for notifications)
-React Confirm Alert (for confirmation dialogs)
+🎨 Responsive UI with Tailwind CSS
 
+🌀 Smooth Animations using Framer Motion
 
+🔔 Toast Notifications for better user feedback
 
-API Endpoints Used:
-Login: POST https://reqres.in/api/login
-Register: POST https://reqres.in/api/register
-Users List: GET https://reqres.in/api/users?page=1
+✅ Confirmation Dialogs with React Confirm Alert
+
+📦 Technologies Used
+
+⚛️ React 19 - Frontend framework
+
+🚏 React Router DOM - Navigation management
+
+🌐 Axios - API requests handling
+
+🎨 Tailwind CSS - Modern styling framework
+
+🌀 Framer Motion - Animations and transitions
+
+🔔 React Toastify - Toast notifications
+
+✅ React Confirm Alert - Confirmation dialogs
+
+🖼️ React Icons - Icon library
+
