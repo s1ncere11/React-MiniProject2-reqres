@@ -1,78 +1,12 @@
-# React-MiniProject2-reqres
-OutsourSync.  Description  A React-based project utilizing the Reqres API for authentication (login &amp; register) and fetching users. The project is styled with Tailwind CSS and enhanced with animations using Framer Motion.
+# React + Vite
 
-Features
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-User authentication (Login & Register) using Reqres API
+Currently, two official plugins are available:
 
-Fetch and display users from the Reqres API
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Responsive UI with Tailwind CSS
+## Expanding the ESLint configuration
 
-Smooth animations with Framer Motion
-
-Toast notifications for feedback
-
-Technologies Used
-
-React 19
-
-React Router DOM (for navigation)
-
-Axios (for API requests)
-
-Tailwind CSS (for styling)
-
-Framer Motion (for animations)
-
-React Icons (for icons)
-
-React Toastify (for notifications)
-
-React Confirm Alert (for confirmation dialogs)
-
-Installation
-
-Clone this repository:
-
-git clone https://github.com/sincere11/React-MiniProject2-reqres.git
-
-Navigate to the project folder:
-
-cd React-MiniProject2-reqres
-
-Install dependencies:
-
-npm install
-
-Start the development server:
-
-npm run dev
-
-API Endpoints Used
-
-Login: POST https://reqres.in/api/login
-
-Register: POST https://reqres.in/api/register
-
-Users List: GET https://reqres.in/api/users?page=1
-
-Usage
-
-Register a new user or log in with existing credentials.
-
-View a list of users fetched from Reqres API.
-
-Utilize the smooth UI and animations to navigate through the application.
-
-Screenshots
-
-
-
-Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-License
-
-This project is open-source and available under the MIT License.
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
