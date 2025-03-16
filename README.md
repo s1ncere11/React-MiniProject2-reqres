@@ -1,12 +1,30 @@
-# React + Vite
+OutsourSync.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description
+A React-based project utilizing the Reqres API for authentication (login & register) and fetching users. The project is styled with Tailwind CSS and enhanced with animations using Framer Motion.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features: 
+User authentication (Login & Register) using Reqres API
+Fetch and display users from the Reqres API
+Responsive UI with Tailwind CSS
+Smooth animations with Framer Motion
+Toast notifications for feedback
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Library Used:
+React 19
+React Router DOM (for navigation)
+Axios (for API requests)
+Tailwind CSS (for styling)
+Framer Motion (for animations)
+React Icons (for icons)
+React Toastify (for notifications)
+React Confirm Alert (for confirmation dialogs)
+
+
+
+API Endpoints Used:
+Login: POST https://reqres.in/api/login
+Register: POST https://reqres.in/api/register
+Users List: GET https://reqres.in/api/users?page=1
