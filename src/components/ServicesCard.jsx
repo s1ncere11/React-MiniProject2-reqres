@@ -6,19 +6,19 @@ const cards = [
     title: "IT Outsourcing",
     description:
       "We provide skilled IT professionals to help your business scale efficiently. Get the best developers, designers, and engineers on-demand.",
-    icon: "src/assets/images/itoutsorcing.jpg",
+    icon: "/images/itoutsorcing.jpg",
   },
   {
     title: "HR & Recruitment",
     description:
       "Looking for top talent? Our recruitment outsourcing service helps you find and onboard the right candidates for your business needs.",
-    icon: "src/assets/images/hr.jpg",
+    icon: "/images/hr.jpg",
   },
   {
     title: "Business Process Outsourcing",
     description:
       "Let us handle your non-core tasks. From customer service to administrative work, we optimize your operations for efficiency.",
-    icon: "src/assets/images/bisnis.jpg",
+    icon: "/images/bisnis.jpg",
   },
 ];
 
